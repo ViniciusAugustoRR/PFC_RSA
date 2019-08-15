@@ -7,7 +7,7 @@
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane id="AnchorPane" prefHeight="640.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Principal_Controller">
+<AnchorPane id="AnchorPane" prefHeight="640.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.Main_Controller">
    <children>
       <Button fx:id="bt_cadastro" layoutX="44.0" layoutY="266.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="113.0" text="Cadastro" />
       <Button fx:id="bt_perfis" layoutX="244.0" layoutY="265.0" mnemonicParsing="false" prefHeight="70.0" prefWidth="113.0" text="Perfis" />

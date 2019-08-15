@@ -9,26 +9,8 @@ import javafx.scene.control.Label;
 import javafx.scene.control.PasswordField;
 import javafx.scene.control.TextField;
 
-public class Principal_Controller implements Initializable {
-
-    @FXML
-    private Label intro_panel;
-    
-    @FXML
-    private Label lb_usua;
-    
-    //###################
-    
-    @FXML
-    private Button bt_cadastro;
-
-    @FXML
-    private Button bt_perfis;
-
-    @FXML
-    private Button bt_servic;
-
-    
+public class Register_Controller implements Initializable {
+        
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         

@@ -15,13 +15,10 @@ public class ConnectionFac {
     private static final String user = "root";
     private static final String pass = "";
     
-    
     public static Connection getConnection(){
         
         try {
-            
             Class.forName(driver);
-            
             return DriverManager.getConnection(url, user, pass);
             
         } catch (ClassNotFoundException | SQLException ex) {
@@ -32,7 +29,6 @@ public class ConnectionFac {
     public static void closeConnection(Connection con){
         
         if(con != null){
-            
             try {
                 con.close();
             } catch (SQLException ex) {
@@ -46,7 +42,6 @@ public class ConnectionFac {
     public static void closeConnection(Connection con,  PreparedStatement stmt){
         
         if(stmt != null){
-            
             try {
                 con.close();
             } catch (SQLException ex) {
@@ -54,10 +49,7 @@ public class ConnectionFac {
             }
             
         }
-        
         closeConnection(con);
-
-        
     }
     
     
@@ -70,7 +62,6 @@ public class ConnectionFac {
                 System.out.println("Error : " + ex);
             }
         }
-        
         closeConnection(con, stmt);
         
     }

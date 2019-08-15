@@ -11,23 +11,11 @@ import javafx.scene.control.TextField;
 
 public class Login_Controller implements Initializable {
 
-    @FXML
-    private Label intro_panel;
-    
-    //#####################################
-    
-    @FXML
-    private TextField text_usua;
+    @FXML private Label intro_panel;
+    @FXML private TextField text_usua;
+    @FXML private PasswordField text_seha;
+    @FXML private Button bt_acessar;
 
-    @FXML
-    private PasswordField text_seha;
-    
-   //###########################################
-
-    @FXML
-    private Button bt_acessar;
-
-    
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         
