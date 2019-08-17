@@ -1,27 +1,27 @@
 
 package controller;
 
+import com.jfoenix.controls.JFXButton;
+import com.jfoenix.controls.JFXCheckBox;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
 import com.jfoenix.controls.JFXHamburger;
+import com.jfoenix.controls.JFXTextField;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
-import javafx.scene.control.CheckBox;
-import javafx.scene.control.TextField;
 import javafx.scene.control.TreeView;
 
 
 public class Register_Controller implements Initializable {
+    
+    @FXML
+    private JFXTextField text_professor;
 
     @FXML
-    private TextField text_professor;
+    private JFXCheckBox cb_ativo;
 
     @FXML
-    private CheckBox cb_ativo;
-
-    @FXML
-    private CheckBox cb_inativo;
+    private JFXCheckBox cb_inativo;
 
     @FXML
     private TreeView<?> treeview_professores;
@@ -34,21 +34,21 @@ public class Register_Controller implements Initializable {
    //#################################################
 
     @FXML
-    private TextField text_cpf;
+    private JFXTextField text_cpf;
 
     @FXML
-    private TextField text_nome;
+    private JFXTextField text_nome;
 
     @FXML
-    private TextField text_telefone;
+    private JFXTextField text_telefone;
 
     @FXML
-    private TextField text_cidade;
+    private JFXTextField text_cidade;
     
     //################################################
 
     @FXML
-    private Button bt_disciplina;
+    private JFXButton bt_disciplina;
 
     
     @Override
